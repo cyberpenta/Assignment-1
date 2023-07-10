@@ -321,9 +321,11 @@
     text-align: center;
 
 }
-.get-info{
+
+.get-info {
     padding: 20px;
 }
+
 .get-title {
     color: #272727;
     text-align: center;
@@ -340,7 +342,8 @@
     font-weight: 400;
     margin-bottom: 30px;
 }
-.get-input{
+
+.get-input {
     height: 15px;
     width: 500px;
     border: none;
@@ -349,3 +352,45 @@
 
 
 /* get latest Design End */
+
+
+/* Footer Design Start  */
+.footer-conatainer {
+    height: 40vh;
+    background-color: #111010;
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+
+.footer-title {
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.footer-title-sub {
+    color: #E55473;
+}
+
+
+
+.footer-copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+/* Footer Design End  */
