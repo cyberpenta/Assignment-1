@@ -130,7 +130,7 @@
 }
 
 .fd-img3 {
-    height: 240px;
+    height: 238px;
     width: 210px;
     padding: 46px;
     margin-left: -16px;
@@ -139,31 +139,27 @@
 .fd-link1 {
     color: #272727;
     text-align: center;
-    font-size: 24px;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 35px;
     text-decoration-line: underline;
-    margin-left: 35px;
+    margin-left: 55px;
 }
 
 .fd-link2 {
     color: #272727;
     text-align: center;
-    font-size: 24px;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 700;
-    line-height: 35px;
     text-decoration-line: underline;
-    margin-left: 35px;
+    margin-left: 55px;
 }
 
 .fd-link3 {
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
-    margin-left: 35px;
+    margin-left: 55px;
 }
 
 /* Featured Section Design End */
@@ -219,9 +215,11 @@
     font-weight: 800;
     margin-bottom: 10px;
 }
-.hot-deal-title-off{
+
+.hot-deal-title-off {
     color: #E55473;
 }
+
 .hot-deal-desc {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -229,10 +227,77 @@
     font-weight: 400;
     margin-bottom: 10px;
 }
-.hot-img{
+
+.hot-img {
     width: 260px;
     height: 330px;
 }
 
 
 /* Hot deal section End */
+
+
+/* Insta section start  */
+.insta-img-block1 {
+    height: 285px;
+    width: 250px;
+    background-image: url('./images/Flower\ 01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.insta-img-block2 {
+    height: 285px;
+    width: 250px;
+    background-image: url('./images/Rectangle\ 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-img-block3 {
+    height: 285px;
+    width: 250px;
+    background-image: url('./images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-img-block4 {
+    height: 285px;
+    width: 250px;
+    background-image: url('./images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta-img-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.insta-section {
+    height: 70vh;
+    align-items: center;
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom:25px;
+}
+
+.insta-desc{
+    width: 50%;
+    margin: auto;
+}
+
+/* Insta section End  */
