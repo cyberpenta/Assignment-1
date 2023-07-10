@@ -4,6 +4,7 @@
     font-family: 'Lato'
 }
 
+/* Banner style start  */
 .banner {
     background-color: rgb(255, 240, 240);
     height: 80vh;
@@ -53,3 +54,117 @@
     padding: 10px;
     margin: 10px;
 }
+
+/* Banner style End */
+
+
+/* Featured Section Design Start */
+
+.featured {
+    height: 70vh;
+}
+
+.fd-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.fd-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%;
+    margin: auto;
+}
+
+.featured-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 350px;
+}
+
+.featured-backgroud1 {
+    height: 285px;
+    width: 250px;
+    /* border: 2px solid red; */
+    border-radius: 130px 130px 0 0;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.featured-backgroud2 {
+    height: 285px;
+    width: 250px;
+    /* border: 2px solid red; */
+    border-radius: 130px 130px 0 0;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.featured-backgroud3 {
+    height: 285px;
+    width: 250px;
+    /* border: 2px solid red; */
+    border-radius: 130px 130px 0 0;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.fd-img1 {
+    height: 239px;
+    width: 194px;
+    padding: 46px;
+    margin-left: -15px;
+}
+
+.fd-img2 {
+    height: 240px;
+    width: 223px;
+    padding: 46px;
+    margin-left: -21px;
+}
+
+.fd-img3 {
+    height: 240px;
+    width: 210px;
+    padding: 46px;
+    margin-left: -16px;
+}
+
+.fd-link1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-left: 35px;
+}
+
+.fd-link2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-left: 35px;
+}
+
+.fd-link3 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+/* Featured Section Design End */
